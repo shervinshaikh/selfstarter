@@ -7,12 +7,12 @@
 
 # Set your project goal here - dollar amount
 # NOTE: if you manually want to adjust your progress to test the site, head over to the Order model (app/models/order.rb)
-project_goal: 100000
+project_goal: 300
 
 # If you want to edit the FAQ, head over to app/views/preorder/homepage/_faqs.html.erb
 
 # This'll be both the page title (<title></title>) and the name in the header
-product_name: "Selfstarter"
+product_name: "Partystarter"
 
 # This will be used in sentences like Hooray You've just reserved product_description
 product_description: "a set of widgets"
@@ -22,10 +22,10 @@ product_description: "a set of widgets"
 product_image_path: "my-product-image.png"
 
 # The message on the preorder page, Lockitron's is ""
-value_proposition: "Roll your own crowdfunding"
+value_proposition: "Crowdfunding for Phi Sig Parties #becausewe'repoor"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
-video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
+video_embed_url: "http://www.youtube.com/watch?v=5PKqHPrSwa4"
 
 # If set to true, then the image at "/assets/video_placeholder.png" will be shown in place of the youtube
 # video.  When the user clicks it, the vid will replace the image and start playing.
@@ -38,9 +38,9 @@ use_video_placeholder: true
 # Amazon settings -- you'll need an Amazon Payments account, sign up here --> http://bit.ly/SGksTv
 
 # To find your access key and secret key, head over to here --> http://bit.ly/R4I4ky (Follow that guide in the Seller Central page)
-amazon_access_key: "YOUR_AMAZON_ACCESS_KEY"
-amazon_secret_key: "YOUR_AMAZON_SECRET_KEY"
-price: 	19.95
+amazon_access_key: AKIAJQMUMK5HV2QFGCQQ
+amazon_secret_key: fIgIo8d7bXauE1QkRzBMnfi4EcDNza7AFE0+5tFq
+price: 	5.95
 
 # if use_payment_options is set to true, then a set of radio buttons will be displayed with various payment options.
 # There is a PaymentOption model for storing info about payment options.  To set up your payment options you should
